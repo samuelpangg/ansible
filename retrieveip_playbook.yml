@@ -1,6 +1,6 @@
 ---
  - name: Retrieve Router IP Address
-   hosts: RouterA
+   hosts: router-a
    gather_facts: no
    connection: network_cli
 
