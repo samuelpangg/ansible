@@ -1,6 +1,6 @@
 [routers]
-router-a ansible_user=routera ansible_host=192.168.20.1 ansible_connection=network_cli ansible_network_os=ios
-router-b ansible_user=routerb ansible_host=192.168.30.1 ansible_connection=network_cli ansible_network_os=ios
+router-a ansible_user=cisco ansible_host=192.168.20.1 ansible_connection=network_cli ansible_network_os=ios
+router-b ansible_user=cisco ansible_host=192.168.30.1 ansible_connection=network_cli ansible_network_os=ios
 
 [servers]
 server ansible_user=cisco ansible_host=192.168.30.10
